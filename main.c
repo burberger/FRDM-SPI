@@ -25,7 +25,7 @@ int main (void) {
 	SPI_init();
  
   while(1) {
-		uint8_t data[2] = { 0xAA, 0x55 };
-		SPI_write(data, 2);
+		uint8_t data[2] = { 0x01, 0xFC };
+		SPI_write(data, 2, 0x00);
   }
  }

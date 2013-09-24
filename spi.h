@@ -1,9 +1,9 @@
 #include <MKL25Z4.h>
 #ifndef SPI
 #define SPI
-#endif
-
 void SPI_init(void);
 uint8_t SPI_status(void);
-void SPI_write(uint8_t* p, int size);
-int SPI_read(char* p, int size);
+void SPI_write(uint8_t* p, int size, uint8_t addr);
+void SPI_read(uint8_t* p, int size, uint8_t addr);
+void SPI0_IRQHandler(void);
+#endif
