@@ -217,9 +217,18 @@ pip-log.txt
 *.plg
 *.dep
 
+# keil
 *.d
 *.o
+*.iex
+*.axf
+*.htm
+*.lnp
+*.map
+*.lst
 *.crf
 *.uvproj
+
+# vim
 *.swp
 *.un~
