@@ -216,3 +216,10 @@ pip-log.txt
 
 *.plg
 *.dep
+
+*.d
+*.o
+*.crf
+*.uvproj
+*.swp
+*.un~
